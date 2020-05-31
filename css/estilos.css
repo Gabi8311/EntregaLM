@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Mrs+Sheppards&family=Righteous&family=Sarina&display=swap");
+header {
+  background-color: black;
+}
+.icono {
+  font-size: 2.5em;
+}
+.iconoTarjeta {
+  font-size: 2.5em;
+}
+h1 {
+  font-family: "Sarina", cursive;
+}
+h2,
+h3,
+h4 {
+  font-family: "Sarina", cursive;
+}
+h5 {
+  font-family: "Righteous", cursive;
+}
+footer h5 {
+  font-family: "Sarina", cursive;
+}
+p {
+  font-family: "Architects Daughter", cursive;
+}
+a {
+  font-family: "Righteous", cursive;
+}
+ul li a {
+  color: grey;
+}
+span {
+  text-decoration: line-through;
+  color: rgb(207, 5, 5);
+}
+form {
+  font-family: "Architects Daughter", cursive;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/perro-equilibrado1000X600.jpg);
+  height: 600px;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: white;
+}
+footer {
+  background-color: black;
+}

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/all.js"></script>
+    <title>Index</title>
+</head>
+
+<!--https://wireframe.cc/UHjulb-->
+
+<body class="bg-light">
+
+    <header class="row text-center align-items-center" id="header">
+        <div class="col-12 col-lg-2 mt-3">
+            <img src="images/newLogo.PNG" alt="Logo">
+        </div>
+        <div class="col-12 col-lg-8">
+            <h1 class="text-uppercase p-2 mt-4  text-white">My Best Friend</h1>
+            <h3 class="p-2 mt-4  text-white">La Web que mejor trata a tu mejor amigo</h3>
+        </div>
+
+
+        <div class="col-12 col-lg-2 text-white mb-3">
+            <i class="fab fa-whatsapp icono p-1 "></i>
+            <i class="fab fa-twitter icono p-1"></i>
+            <i class="fab fa-facebook icono p-1"></i>
+            <i class="fab fa-google-plus icono p-1 "></i>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <section class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
+                <a class="navbar-brand" href="#">My Best Friend</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Casetas">Casetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Camas">Camas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Complementos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#Arneses">Arneses</a>
+                                <a class="dropdown-item" href="#Bozales">Bozales</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#Accesorios">Accesorios</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#Veterinario">Veterinarios</a>
+                                <a class="dropdown-item" href="#Adiestramiento">Adiestramiento</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#Adopción">Adopción</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </section>
+
+        <section class="pb-5">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/fotoGrande1920x1080.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Grande1920x1080pitBull.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo-de-pantalla-perro-lobo-bebe_1920x1080_1276.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/perroBonito1920x1080.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <div class="text-center pt-5" id="Casetas">
+            <h3 class="">Nuestras casetas</h3>
+        </div>
+        <section class="row mt-3">
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/casaWesty.jpg" class="card-img-top mw-100 " alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title te">Doggy House</h5>
+                        <p class="card-text">Cobertizo con un tejadillo sobre la entrada.
+                            Buenos acabados y material de primera.
+                        </p>
+                        <h6 class="p-1">99,95€&nbsp;&nbsp; &nbsp;<span>119,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/casa-incríble-para-perros-300x300.jpg" class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Double Índigo</h5>
+                        <p class="card-text">Índigo con planta superior para tomar el sol.Hecha de madera de blanca de
+                            roble.</p>
+                        <h6 class="p-1">140,45€&nbsp;&nbsp; &nbsp;<span>180,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/casaPerro_300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Willow Complete</h5>
+                        <p class="card-text">Caseta completamente de plástico prensado.Tiene todo lo necesario para
+                            exterior e interior.</p>
+                        <h6 class="p-1">119,95€&nbsp;&nbsp; &nbsp;<span>140,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/casaPerro2_300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Dogvilla</h5>
+                        <p class="card-text">Máxima calidad con techo e interior forrado de polliester.Madera maciza y
+                            pintada con barniz</p>
+                        <h6 class="p-1">139,45€&nbsp;&nbsp; &nbsp;<span>145,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="text-center mt-5" id="Camas">
+            <h3>Nuestras camas</h3>
+        </div>
+
+        <section class="row mt-3">
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/cama_4_300x300.jpg" class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Allisandro</h5>
+                        <p class="card-text">Cama de metraquilato con cojín de máxima calidad.Tiene patas de hierro y
+                            goma reforzada.</p>
+                        <h6 class="p-1">79,45€&nbsp;&nbsp; &nbsp;<span>95,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/cama_3_300x300.jpg" class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Lucca maxime</h5>
+                        <p class="card-text">Estructura de madera de pino con barniz de agua.Cogín ergonómico de hilo y
+                            algodón</p>
+                        <h6 class="p-1">60,95€&nbsp;&nbsp; &nbsp;<span>75,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/cama_300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Balinesa</h5>
+                        <p class="card-text">Balinesa para exterior.Máxima calidad y conchón confortable blanco</p>
+                        <h6 class="p-1">39,45€&nbsp;&nbsp; &nbsp;<span>45,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/cama_2_300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Masthome</h5>
+                        <p class="card-text">Estructura blanca de madera de roble y barniz anti-agua.Conchón reversible
+                        </p>
+                        <h6 class="p-1">39,45€&nbsp;&nbsp; &nbsp;<span>45,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="text-center mt-5" id="Arneses">
+            <h3>Arneses</h3>
+        </div>
+
+        <section class="row mt-3">
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/arnes-de-cuero-para-perros-pequenos-3-300x300.jpg" class="card-img-top mw-100"
+                        alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Hunter</h5>
+                        <p class="card-text">Muy cómodo para el perro.
+                            Gran calidad de fabricación: es muy resistente.Anti-tirones.</p>
+                        <h6 class="p-1">69,45€&nbsp;&nbsp; &nbsp;<span>85,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/arnes-Safari-En-Perro-300x300.jpg" class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Halti</h5>
+                        <p class="card-text">Diseñado para enseñar a tu perro a no tirar.Con sistema de control patenta.
+                        </p>
+                        <h6 class="p-1">39,45€&nbsp;&nbsp; &nbsp;<span>49,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/arnes300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Spartan</h5>
+                        <p class="card-text">Ajustable y acolchado.Con asa para sujetar o levantar al perro.Fabricado en
+                            nylon.</p>
+                        <h6 class="p-1">79,45€&nbsp;&nbsp; &nbsp;<span>95,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/arnes-de-cuero-personalizado-para-perros-2-300x300.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Eagloo</h5>
+                        <p class="card-text">Personalizable.Tiene cuero con hilo de nylon.Placas de metal reforzado en
+                            el frontal</p>
+                        <h6 class="p-1">89,45€&nbsp;&nbsp; &nbsp;<span>99,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="text-center mt-5" id="Bozales">
+            <h3>Bozales</h3>
+        </div>
+
+
+        <section class="row mt-3">
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/bozal-abierto-para-perro-belga-malinois-fashion-m61_300x300.jpg"
+                        class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Burton</h5>
+                        <p class="card-text">Bozal anti-ataque.Tiene protecciones metalicas contra agrasiones ó posibles
+                            mordeduras.</p>
+                        <h6 class="p-1">59,45€&nbsp;&nbsp; &nbsp;<span>65,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/bozal-cuero-para-perro-retriever-golden-estallar-en-llamas-m77fl_300x300.jpg"
+                        class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Radiano</h5>
+                        <p class="card-text">Para perros de gran tamaño.Formado de cuero e hilo duro.Con dibujos de
+                            llamaradas.</p>
+                        <h6 class="p-1">49,45€&nbsp;&nbsp; &nbsp;<span>65,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/bozal-enano_300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Mercury Bull</h5>
+                        <p class="card-text">Elemento para perros pequeños con hocico corto.Máscara con red protectora
+                        </p>
+                        <h6 class="p-1">39,45€&nbsp;&nbsp; &nbsp;<span>45,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/bozal-de-ataque-adiestramiento-rottweiler-alambre-de-espino-m77bw_300x300.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Mad Max</h5>
+                        <p class="card-text">Bozal para perros grandes.Cuero de máxima calidad con dibujo de alambrada.
+                        </p>
+                        <h6 class="p-1">69,95€&nbsp;&nbsp; &nbsp;<span>85,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="text-center mt-5" id="Accesorios">
+            <h3>Accesorios</h3>
+        </div>
+
+        <section class="row mt-3">
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/comedero300x300.jpg" class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Dyre Time</h5>
+                        <p class="card-text">Comedero con temporizador.Tapa de metraquilato y plástico.Interior
+                            metálico.</p>
+                        <h6 class="p-1">69,95€&nbsp;&nbsp; &nbsp;<span>75,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/Comedero-Antivoracidad-Antideslizante-para-Perros2-300x300.jpg"
+                        class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Waiter</h5>
+                        <p class="card-text">Para perros ansiosos.Anti-vorazidad.Con plástico antideslizante en la base
+                        </p>
+                        <h6 class="p-1">39,45€&nbsp;&nbsp; &nbsp;<span>45,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/bebedero-300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">DrinkWell</h5>
+                        <p class="card-text">Con este bebedero automático de agua para perros de acero inoxidable.</p>
+                        <h6 class="p-1">89,95€&nbsp;&nbsp; &nbsp;<span>95,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/juguete-perros-interactivo_300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Playeat</h5>
+                        <p class="card-text">Juguete de comida para perros interactivo.Con fugas de bolas de comida para
+                            mascotas</p>
+                        <h6 class="p-1">59,45€&nbsp;&nbsp; &nbsp;<span>65,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/cinturo-seguridad300x300.jpg" class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Segurdog</h5>
+                        <p class="card-text">Cinturón de seguridad con arnés con forma de H.Tiene anclaje al cinturón
+                            del coche.</p>
+                        <h6 class="p-1">39,45€&nbsp;&nbsp; &nbsp;<span>45,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/funda-coche-300x300.jpg" class="card-img-top mw-100" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">FundCar</h5>
+                        <p class="card-text">Funda total para la parte trasera del coche.Acabado de máxima calidad en
+                            piel negra.</p>
+                        <h6 class="p-1">110,45€&nbsp;&nbsp; &nbsp;<span>145,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/transportin-coche-perro-transporte-colgar-viaje-300x300.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Puppy Transport</h5>
+                        <p class="card-text">Trasportín para perro pequeño.Adaptable a los asientos delanteros y
+                            traseros.</p>
+                        <h6 class="p-1">89,95€&nbsp;&nbsp; &nbsp;<span>99,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/jugueteVentosa300x300.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Ventoplay</h5>
+                        <p class="card-text">Ventosa con cuerda de con una pelota plástico duro en el extremo.Máximo
+                            aguante.</p>
+                        <h6 class="p-1">39,45€&nbsp;&nbsp; &nbsp;<span>45,95€</span></h6>
+                        <a href="#" class="btn btn-secondary">Más info >></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="my-5">
+            <div class="jumbotron img-fluid">
+                <h1 class="display-4">My Best Friend</h1>
+                <p class="lead">"Estudia y trabaja para darle a tu perro la vida que se merece"</p>
+                <hr class="my-4">
+                <p>Frases famosas sobre perros
+                </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Leer más</a>
+            </div>
+
+        </section>
+
+        <section class="row align-items-center p-3 text-center">
+            <div class="col-12 col-lg-6">
+                <h4 class="mb-3">No humanicemos a los perros</h4>
+                <p>"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
+                    profesional y no en tener familia. Por eso quieren llenar ese vacío con los animales. Pero los
+                    animales se sienten incompletos porque no son seres humanos y tienen otras necesidades físicas y
+                    psicológicas.</p>
+                <p>Nadie quiere hacer al delfín humano, nadie quiere hacer al caballo humano, pero todo el mundo quiere
+                    hacer al perro humano. Al perro, que vive más cerca del humano, se le cambia su identidad y luego se
+                    le
+                    culpa por el efecto secundario que es causado por esa razón."</p>
+                <h6 class="font-italic">-
+                    César
+                    Millán -</h6>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img src="images/perro-humanizado600x400.jpg" alt="" class="rounded-pill img-fluid">
+            </div>
+        </section>
+
+        <div class="text-center mt-5" id="Veterinario">
+            <h3>Reacciones de perros al volver a ver a sus dueños</h3>
+        </div>
+        <section class="row align-items-center">
+            <div class="d-none d-lg-block col-lg-6 p-3">
+                <img src="images/perroGracioso600x400.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-12 col-lg-6 w-100 p-5">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.youtube.com/embed/Ai8jHwDzt-A" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center mb-4 mt-4" id="Adiestramiento">
+            <h3>Adiestramiento</h3>
+        </div>
+
+        <section class="row align-items-center text-secondary text-center">
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="images/entrenador-canino-pbs17-1_300x300.jpg" alt="" class="w-100 rounded mb-3">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-3">
+                <h4 class="p-2">Profesional</h4>
+                <p>Somos especialistas en el adiestramiento canino en Madrid y alrededores.
+                    Trabajamos el adiestramiento en perros con problemas de adaptación a través de técnicas de
+                    obediencia, educación y etología canina.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="images/entrenamiento-de-fuerza-pbs4_300x300 (1).jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-3">
+                <h4 class="p-2">Violencia de Género</h4>
+                <p>No son perros de seguridad, son perros de protección. El objetivo no es que el perro ataque al
+                    agresor, sino que actúe como barrera. Los perros también llevan un bozal especialmente diseñado para
+                    evitar agresiones sin causar heridas graves</p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 p-3">
+                <img src="images/adiestramiento_canino300x300.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4 class="p-2">Modificación de la conducta</h4>
+                <p>Nuestra experiencia en el sector de la modificación de conductas inadecuadas hace que podamos
+                    adaptarnos a vuestras necesidades mediante el programa de modificación de conducta que prefieras
+                    para ayudar a tu compañero a cambiar su comportamiento no deseado.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pl-3 pr-3 pb-3">
+                <img src="images/Entrenamiento-de-perro-1-300x300.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4 class="p-2">A domicilio</h4>
+                <p>Te ayudamos a conocer mejor las necesidades de tu perro fortaleciendo el vínculo y comunicación entre
+                    ambos, adaptándonos a tu situación concreta y enseñándote a conocerle mejor para que descubras
+                    cuáles son sus necesidades.Las sesiones de trabajo tienen lugar en el propio
+                    domicilio y los alrededores. </p>
+            </div>
+        </section>
+
+        <div class="text-center mt-5" id="Veterinario">
+            <h3>Veterinario</h3>
+        </div>
+
+        <section class="row align-items-center text-center mt-4 text-secondary">
+            <div class="col-12 col-xl-4 p-2">
+                <img src="images/veterinario-300x300.jpg" alt="" class="w-100 rounded">
+            </div>
+
+            <div class="col-12 col-xl-4 p-2">
+                <h4 class="p-2">Contacta con nuestro equipo</h4>
+                <p>Urgencias 24h. Abierto todos los días. Servicios Exclusivos. Servicio 24 h 365 d. Atención
+                    Profesional. Servicios: Medicina Interna, Dermatología, Oncología, Geriatría, Nutrición.
+                    Veterinario</p>
+                <p>Especilistas en ortopedia para tu perro</p>
+                <p>Calle Amparo Larrañaga 11,Madrid</p>
+                <p>Tlfno-91/368-43-79</p>
+            </div>
+            <div class="d-none d-xl-block col-xl-4 p-2">
+                <img src="images/ortopedia_de_perro300x300.jpg" alt="" class="w-100 rounded">
+            </div>
+
+        </section>
+
+        <div class="text-center mt-5 mb-4" id="Adopción">
+            <h2 class="mb-4">Adopción</h2>
+            <h4 class="mb-5"> ¡Estás en el sitio adecuado! Adopta, salva una vida y gana un amigo.</h4>
+        </div>
+
+        <section>
+            <div class="col-12">
+                <img src="images/mascotas-adopcion-1280x720x80xX.jpg" alt="" class="w-100 rounded">
+            </div>
+        </section>
+
+        <!--Form & Iframe-->
+
+        <section class="row p-3">
+            <div class="col-12 col-md-6">
+                <div class="text-center mt-5 mb-3">
+                    <h3>Introduce tus datos</h3>
+                </div>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Dirección</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Ej.Calle 123...">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Dirección 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartmento, estudio o chalet">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Ciudad</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Capital</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Elige</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Quieres recibir información comercial
+                            </label>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Enviar
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="exampleModalLabel">Protección de Datos</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Con estos datos da permiso a la empresa a para ponerse en contacto con
+                                    usted,en caso de fururas adopciones.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">Doy permiso</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </form>
+            </div>
+
+            <div class="col-12 col-md-6 mb-5">
+                <div class="text-center mt-5 mb-4">
+                    <h3>Donde puedes encontrarnos</h3>
+                </div>
+                <div class="embed-responsive embed-responsive-4by3 align-items-center">
+                    <iframe class="embed-responsive-items p-3"
+                        src="https://maps.google.com/maps?q=calle%20Tintin%20y%20Milu%2012&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="text-center p-3">
+        <i class="fas fa-angle-up"></i>
+        <br>
+        <a href="#header" class="btn btn-outline-secondary">Volver arriba</a>
+    </div>
+
+    <footer class="row text-center text-white align-items-center">
+        <div class="col-12 col-lg-3 mt-5 pl-3">
+            <img src="images/newLogoPequeño.PNG" alt="">
+            <h5 class="text-uppercase mt-3">My Best Friend</h5>
+        </div>
+
+        <div class="col-12 col-lg-6 text-white mt-2">
+            <p>Calle Tintín y Milú 12 &nbsp;&nbsp;Tlfno-91/3884463 &nbsp;&nbsp;28042&nbsp;&nbsp;Madrid</p>
+            <p>Copyright © 2020 MyBestFriend es una marca registrada de GabiLand.com</p>
+            <p>Todos los derechos reservados</p>
+        </div>
+
+        <div class="col-12 col-lg-3 text-white mt-3">
+            <h5 class="mt-3 mb-3">Siguenos en redes sociales</h5>
+            <i class="fab fa-google-plus pr-1 icono ml-2 "></i>
+            <i class="fab fa-twitter pr-1 icono ml-2"></i>
+            <i class="fab fa-facebook pr-1 icono ml-2"></i>
+            <i class="fab fa-whatsapp pr-1 icono ml-2"></i>
+        </div>
+
+        <div class="iconoTarjeta col-12 text-white">
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-cc-visa ml-2"></i>
+            <i class="fab fa-cc-mastercard ml-2"></i>
+            <i class="fab fa-cc-amex ml-2"></i>
+            <i class="fab fa-cc-apple-pay ml-2"></i>
+        </div>
+
+        <div class="col-12">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Aviso Legal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
